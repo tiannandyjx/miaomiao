@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
@@ -17,7 +18,8 @@
     "@vue/cli-service": "^3.8.0",
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "webpack-cli": "^3.3.4"
   },
   "postcss": {
     "plugins": {
